@@ -1,0 +1,40 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <h3>Want to contact me?</h3>
+        <ul class="contact-list">
+          <li>
+            <i class="fa fa-envelope"></i><a href="mailto:{{ site.email }}">&nbsp;{{ site.email }}</a>
+          </li>
+
+          <li>
+            <i class="fa fa-linkedin"></i><a href="{{ site.linkedin_profile }}">&nbsp;LinkedIn</a>
+          </li>
+
+          <li>
+            <i class="fa fa-github"></i><a href="https://github.com/{{ site.personal_github_username}}">&nbsp;{{ site.personal_github_username }}</a> /
+            <a href="https://github.com/{{ site.work_github_username}}">{{ site.work_github_username }}</a>
+          </li>
+
+          <li>
+            <i class="fa fa-twitter"></i><a href="https://twitter.com/{{ site.twitter_username }}">&nbsp;{{ site.twitter_username }}</a>
+          </li>
+
+          <li>
+            <i class="fa fa-file-text"></i><a href="{{ site.resume_url }}">&nbsp;Resume</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{ site.description }}</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
