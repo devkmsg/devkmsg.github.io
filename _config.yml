@@ -19,7 +19,7 @@ twitter_username: devkmsg
 personal_github_username: devkmsg
 work_github_username: athompson-r7
 linkedin_profile: https://www.linkedin.com/in/andrew-thompson-90487a7
-resume_url: "https://devkmsg.github.io/resume/AndrewThompsonResume.pdf"
+resume_url: "https://devkmsg.github.io/Resume/target/AndrewThompsonResume.pdf"
 
 # Build settings
 markdown: kramdown
